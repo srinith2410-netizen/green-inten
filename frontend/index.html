@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emission Hotspots in Chennai</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>🌍 Emission Hotspots in Chennai</h1>
+    <p>Visualizing pollution sources and recommendations</p>
+  </header>
+
+  <main>
+    <div id="dashboard">
+      <h2>Dashboard</h2>
+      <p>Total Hotspots: <span id="total-hotspots">0</span></p>
+      <p>Average Emission Score: <span id="avg-emission">0</span></p>
+      <p>Top Polluted Area: <span id="top-area">None</span></p>
+    </div>
+
+    <div id="map" style="height: 500px; width: 100%;"></div>
+
+    <div id="report-form">
+      <h2>Report a Pollution Spot</h2>
+      <form id="pollution-report">
+        <input type="text" id="location-name" placeholder="Location Name" required>
+        <input type="number" step="any" id="lat" placeholder="Latitude" required>
+        <input type="number" step="any" id="lon" placeholder="Longitude" required>
+        <select id="source-type" required>
+          <option value="">Select Source Type</option>
+          <option value="traffic">Traffic</option>
+          <option value="industry">Industry</option>
+          <option value="construction">Construction</option>
+          <option value="high energy usage">High Energy Usage</option>
+        </select>
+        <input type="number" id="traffic-density" placeholder="Traffic Density (0-100)">
+        <input type="number" step="any" id="pollution-level" placeholder="Pollution Level">
+        <button type="submit">Submit Report</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Emission Monitoring</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+}
+
+header {
+  background: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+#dashboard {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+#map {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+#report-form {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#pollution-report {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#pollution-report input, #pollution-report select, #pollution-report button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#pollution-report button {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+#pollution-report button:hover {
+  background: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}

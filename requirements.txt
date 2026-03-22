@@ -1,0 +1,7 @@
+Flask>=2.2,<3
+SQLAlchemy>=1.4
+flask_sqlalchemy>=3.0
+python-dotenv>=1.0
+flask-cors>=4.0
+pandas>=1.5
+requests>=2.32

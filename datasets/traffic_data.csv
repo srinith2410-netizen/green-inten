@@ -1,0 +1,16 @@
+location,lat,lon,traffic,pollution,source_type
+T Nagar,13.0418,80.2337,90,120,traffic
+Guindy,13.0100,80.2200,85,110,industry
+Velachery,12.9800,80.2200,80,95,construction
+Anna Salai,13.0604,80.2496,95,130,traffic
+Mount Road,13.0839,80.2711,88,115,traffic
+Adyar,13.0067,80.2572,70,90,industry
+Tambaram,12.9249,80.1000,65,85,high energy usage
+Chennai Central,13.0827,80.2707,100,140,traffic
+Marina Beach,13.0586,80.2837,60,75,traffic
+Nungambakkam,13.0586,80.2425,82,105,traffic
+Kodambakkam,13.0521,80.2210,78,100,traffic
+Saidapet,13.0213,80.2231,75,95,industry
+Royapettah,13.0554,80.2575,80,105,traffic
+Triplicane,13.0586,80.2752,70,85,traffic
+Mylapore,13.0368,80.2676,85,110,industry

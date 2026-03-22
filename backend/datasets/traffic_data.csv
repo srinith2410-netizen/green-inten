@@ -1,0 +1,6 @@
+location,lat,lon,traffic,pollution,source_type
+T Nagar,13.0418,80.2337,90,120,traffic
+Guindy,13.0100,80.2200,85,110,industry
+Velachery,12.9800,80.2200,80,95,construction
+Adyar,13.0067,80.2570,70,80,industry
+Anna Nagar,13.0850,80.2101,75,90,traffic

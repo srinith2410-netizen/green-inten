@@ -1,0 +1,44 @@
+/* Global Styles - Green Theme */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9f6ea;
+  color: #222;
+}
+.navbar {
+  background-color: #2e7d32;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.navbar a { color: white; margin-left: 1rem; text-decoration: none; }
+.button {
+  background-color: #43a047;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button:hover { background-color: #66bb6a; }
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.6rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  margin: 1rem 0;
+}
+input, select {
+  padding: 0.6rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+  box-sizing: border-box;
+}
+h1,h2,h3 { color: #2e7d32; }
+.container { max-width: 1100px; margin: 0 auto; padding: 1rem; }
